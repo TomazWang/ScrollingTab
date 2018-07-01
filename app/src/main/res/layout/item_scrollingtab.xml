@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView_scrollTabItem_tabIcon"
+        android:layout_width="@dimen/size_scrollingTabItem_tabSize_80"
+        android:layout_height="@dimen/size_scrollingTabItem_tabSize_80"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:id="@+id/textView_scrollingTabItem_tabName"
+        android:layout_width="@dimen/size_scrollingTabItem_tabSize_80"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView_scrollTabItem_tabIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_all_8"
+        android:gravity="center"/>
+
+</RelativeLayout>

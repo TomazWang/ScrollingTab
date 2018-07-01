@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_scrollingTab_minHeight_32">32dp</dimen>
+    <dimen name="size_scrollingTabItem_tabSize_80">80dp</dimen>
+    <dimen name="margin_all_8">8dp</dimen>
+</resources>
